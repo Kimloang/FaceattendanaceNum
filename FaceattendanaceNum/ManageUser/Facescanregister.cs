@@ -21,7 +21,7 @@ namespace scanface
     {
         VideoCapture VideoCapture;
         Image<Bgr, Byte> BgrImage = null;
-        MySqlConnection con = new MySqlConnection(@"server=localhost;uid=root;database=face-scan;password=loang*001");
+        MySqlConnection con = new MySqlConnection(@"");
         MySqlCommand cmd = new MySqlCommand();
         Mat frame = new Mat();
 
